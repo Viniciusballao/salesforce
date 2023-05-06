@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "DevOrg",
+  "namespace": "",
+  "sfdcLoginUrl": "https://ballao-dev-ed.develop.my.salesforce.com",
+  "sourceApiVersion": "56.0"
+}
