@@ -1,0 +1,70 @@
+<template>
+
+    <div class="c-container">
+
+        <lightning-card title="Buscar CEP" icon-name="standard:home">
+
+            <lightning-layout multiple-rows="true" class="slds-var-m-around_medium">
+
+                <lightning-layout-item padding="around-small" size="3"></lightning-layout-item>
+                <lightning-layout-item padding="around-small" size="3">
+                    <lightning-input type="toggle" label="Endereço de Entrega">
+                    </lightning-input>
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small" size="3">
+                    <lightning-input type="toggle" label="Endereço de Cobrança">
+                    </lightning-input>
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small" size="3"></lightning-layout-item>
+    
+                <lightning-layout-item class="slds-var-m-bottom_small" padding="around-small" size="5">
+    
+                    <lightning-input label="CEP"></lightning-input>
+                    
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small" size="6"></lightning-layout-item>
+
+                <lightning-layout-item padding="around-small" size="5">
+                    <lightning-input label="Logradouro">
+                    </lightning-input>
+                </lightning-layout-item>
+
+                <lightning-layout-item padding="around-small" size="2">
+                    <lightning-input label="Número">
+                    </lightning-input>
+                </lightning-layout-item>
+
+                <lightning-layout-item padding="around-small" size="5">
+                    <lightning-input label="Complemento">
+                    </lightning-input>
+                </lightning-layout-item>
+
+                <lightning-layout-item class="slds-m-bottom_large" padding="around-small" size="5">
+                    <lightning-input label="Bairro">
+                    </lightning-input>
+                </lightning-layout-item>
+
+                <lightning-layout-item class="slds-m-bottom_large" padding="around-small" size="5">
+                    <lightning-input label="Cidade">
+                    </lightning-input>
+                </lightning-layout-item>
+
+                <lightning-layout-item class="slds-m-bottom_large" padding="around-small" size="2">
+                    <lightning-input label="UF">
+                    </lightning-input>
+                </lightning-layout-item>
+                
+                <lightning-layout-item padding="around-small" size="4"></lightning-layout-item>
+                <lightning-layout-item padding="around-small" class="slds-text-align_center" size="4">
+                    <lightning-button label="Salvar"></lightning-button>
+                    <lightning-button class="slds-m-left_x-small" label="Cancelar"></lightning-button>
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small" size="4"></lightning-layout-item>
+
+            </lightning-layout>
+
+        </lightning-card>
+
+    </div>
+    
+</template>
