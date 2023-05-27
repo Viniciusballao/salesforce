@@ -19,13 +19,13 @@
     
                 <lightning-layout-item class="slds-var-m-bottom_small" padding="around-small" size="5">
     
-                    <lightning-input label="CEP"></lightning-input>
+                    <lightning-input label="CEP" onchange={handleInputChange} value={cep} maxlength="8"></lightning-input>
                     
                 </lightning-layout-item>
                 <lightning-layout-item padding="around-small" size="6"></lightning-layout-item>
 
                 <lightning-layout-item padding="around-small" size="5">
-                    <lightning-input label="Logradouro">
+                    <lightning-input label="Logradouro" value={logradouro} disabled> 
                     </lightning-input>
                 </lightning-layout-item>
 
@@ -40,17 +40,17 @@
                 </lightning-layout-item>
 
                 <lightning-layout-item class="slds-m-bottom_large" padding="around-small" size="5">
-                    <lightning-input label="Bairro">
+                    <lightning-input label="Bairro" value={bairro} disabled>
                     </lightning-input>
                 </lightning-layout-item>
 
                 <lightning-layout-item class="slds-m-bottom_large" padding="around-small" size="5">
-                    <lightning-input label="Cidade">
+                    <lightning-input label="Cidade" value={cidade} disabled>
                     </lightning-input>
                 </lightning-layout-item>
 
                 <lightning-layout-item class="slds-m-bottom_large" padding="around-small" size="2">
-                    <lightning-input label="UF">
+                    <lightning-input label="UF" value={uf} disabled>
                     </lightning-input>
                 </lightning-layout-item>
                 
