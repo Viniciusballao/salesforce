@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 325,
+  "serverMaxRevisionCounter": 327,
   "sourceMembers": {
     "StandardValueSet__AccountType": {
       "serverRevisionCounter": 1,
@@ -39,7 +39,7 @@
     },
     "CustomObject__Account": {
       "serverRevisionCounter": 75,
-      "lastRetrievedFromServer": null,
+      "lastRetrievedFromServer": 75,
       "memberType": "CustomObject",
       "isNameObsolete": false
     },
@@ -81,13 +81,13 @@
     },
     "RecordType__Account.Parceiro": {
       "serverRevisionCounter": 251,
-      "lastRetrievedFromServer": null,
+      "lastRetrievedFromServer": 251,
       "memberType": "RecordType",
       "isNameObsolete": false
     },
     "RecordType__Account.Consumidor_final": {
       "serverRevisionCounter": 253,
-      "lastRetrievedFromServer": null,
+      "lastRetrievedFromServer": 253,
       "memberType": "RecordType",
       "isNameObsolete": false
     },
@@ -99,7 +99,7 @@
     },
     "CustomField__Account.Inativa__c": {
       "serverRevisionCounter": 317,
-      "lastRetrievedFromServer": null,
+      "lastRetrievedFromServer": 317,
       "memberType": "CustomField",
       "isNameObsolete": false
     },
@@ -124,6 +124,12 @@
     "ApexClass__InactivateAccountBatch": {
       "serverRevisionCounter": 325,
       "lastRetrievedFromServer": 325,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexClass__InactivateAccountSchedulable": {
+      "serverRevisionCounter": 327,
+      "lastRetrievedFromServer": 327,
       "memberType": "ApexClass",
       "isNameObsolete": false
     }

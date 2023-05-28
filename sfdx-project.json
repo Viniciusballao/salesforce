@@ -2,11 +2,18 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "testNTT",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": "Teste NTTDATA"
     }
   ],
   "name": "DevOrg",
   "namespace": "",
   "sfdcLoginUrl": "https://ballao-dev-ed.develop.my.salesforce.com",
-  "sourceApiVersion": "56.0"
+  "sourceApiVersion": "56.0",
+  "packageAliases": {
+    "testNTT": "0HoHs000000k9cLKAQ"
+  }
 }
