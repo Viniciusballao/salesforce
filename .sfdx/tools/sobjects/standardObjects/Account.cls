@@ -13,6 +13,8 @@ global class Account {
     global Id MasterRecordId;
     global String Name;
     global String Type;
+    global RecordType RecordType;
+    global Id RecordTypeId;
     global Account Parent;
     global Id ParentId;
     global String BillingStreet;
@@ -71,6 +73,8 @@ global class Account {
     global String SicDesc;
     global DandBCompany DandbCompany;
     global Id DandbCompanyId;
+    global OperatingHours OperatingHours;
+    global Id OperatingHoursId;
     global List<Account> ChildAccounts;
     global List<AccountCleanInfo> AccountCleanInfos;
     global List<AccountContactRole> AccountContactRoles;
@@ -83,6 +87,7 @@ global class Account {
     global List<Asset> Assets;
     global List<Asset> ProvidedAssets;
     global List<Asset> ServicedAssets;
+    global List<AssociatedLocation> AssociatedLocations;
     global List<AttachedContentDocument> AttachedContentDocuments;
     global List<Attachment> Attachments;
     global List<Case> Cases;
@@ -96,8 +101,10 @@ global class Account {
     global List<Contract> Contracts;
     global List<DuplicateRecordItem> DuplicateRecordItems;
     global List<EmailMessage> Emails;
+    global List<Entitlement> Entitlements;
     global List<EntitySubscription> FeedSubscriptionsForEntity;
     global List<Event> Events;
+    global List<MaintenancePlan> MaintenancePlans;
     global List<Note> Notes;
     global List<NoteAndAttachment> NotesAndAttachments;
     global List<OpenActivity> OpenActivities;
@@ -108,11 +115,20 @@ global class Account {
     global List<Partner> PartnersTo;
     global List<ProcessInstance> ProcessInstances;
     global List<ProcessInstanceHistory> ProcessSteps;
+    global List<ProductRequest> ProductRequests;
+    global List<ProductRequestLineItem> ProductRequestLineItems;
     global List<RecordAction> RecordActions;
     global List<RecordActionHistory> RecordActionHistories;
+    global List<ResourcePreference> ResourcePreferences;
+    global List<ReturnOrder> ReturnOrders;
+    global List<ServiceAppointment> ServiceAppointmentAccount;
+    global List<ServiceAppointment> ServiceAppointments;
+    global List<ServiceContract> ServiceContracts;
+    global List<ServiceResource> ServiceResources;
     global List<Task> Tasks;
     global List<TopicAssignment> TopicAssignments;
     global List<User> Users;
+    global List<WorkOrder> WorkOrders;
     global List<AccountChangeEvent> Parent;
     global List<AccountContactRoleChangeEvent> Account;
     global List<AssetChangeEvent> AssetProvidedBy;
@@ -129,7 +145,7 @@ global class Account {
     global List<Lead> ConvertedAccount;
     global List<OpportunityChangeEvent> Account;
     global List<OutgoingEmail> RelatedTo;
-    global List<Task> Account;
+    global List<ServiceContractChangeEvent> Account;
     global List<TaskChangeEvent> What;
     global List<UserChangeEvent> Account;
     global List<UserRole> PortalAccount;

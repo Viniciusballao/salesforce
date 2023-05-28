@@ -1190,6 +1190,16 @@
       "restrictedDelete": false
     },
     {
+      "cascadeDelete": true,
+      "childSObject": "DigitalSignature",
+      "deprecatedAndHidden": false,
+      "field": "ParentId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "DigitalSignatures",
+      "restrictedDelete": false
+    },
+    {
       "cascadeDelete": false,
       "childSObject": "EmailMessage",
       "deprecatedAndHidden": false,
@@ -1420,6 +1430,16 @@
       "restrictedDelete": false
     },
     {
+      "cascadeDelete": false,
+      "childSObject": "ReturnOrder",
+      "deprecatedAndHidden": false,
+      "field": "OrderId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ReturnOrders",
+      "restrictedDelete": false
+    },
+    {
       "cascadeDelete": true,
       "childSObject": "Task",
       "deprecatedAndHidden": false,
@@ -1447,6 +1467,16 @@
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": "TopicAssignments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "WorkOrderLineItem",
+      "deprecatedAndHidden": false,
+      "field": "OrderId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "WorkOrderLineItems",
       "restrictedDelete": false
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 238,
+  "serverMaxRevisionCounter": 316,
   "sourceMembers": {
     "StandardValueSet__AccountType": {
       "serverRevisionCounter": 1,
@@ -53,6 +53,48 @@
       "serverRevisionCounter": 147,
       "lastRetrievedFromServer": null,
       "memberType": "QuickAction",
+      "isNameObsolete": false
+    },
+    "Profile__Admin": {
+      "serverRevisionCounter": 240,
+      "lastRetrievedFromServer": null,
+      "memberType": "Profile",
+      "isNameObsolete": false
+    },
+    "ApexClass__Utils": {
+      "serverRevisionCounter": 266,
+      "lastRetrievedFromServer": 266,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "ApexTrigger__AccountTrigger": {
+      "serverRevisionCounter": 281,
+      "lastRetrievedFromServer": 281,
+      "memberType": "ApexTrigger",
+      "isNameObsolete": false
+    },
+    "ApexClass__AccountTriggerHandler": {
+      "serverRevisionCounter": 292,
+      "lastRetrievedFromServer": 292,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "RecordType__Account.Parceiro": {
+      "serverRevisionCounter": 251,
+      "lastRetrievedFromServer": null,
+      "memberType": "RecordType",
+      "isNameObsolete": false
+    },
+    "RecordType__Account.Consumidor_final": {
+      "serverRevisionCounter": 253,
+      "lastRetrievedFromServer": null,
+      "memberType": "RecordType",
+      "isNameObsolete": false
+    },
+    "ApexClass__AccountTriggerHandlerTest": {
+      "serverRevisionCounter": 316,
+      "lastRetrievedFromServer": 316,
+      "memberType": "ApexClass",
       "isNameObsolete": false
     }
   }

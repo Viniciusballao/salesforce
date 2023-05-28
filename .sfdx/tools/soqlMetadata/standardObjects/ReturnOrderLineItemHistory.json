@@ -1,0 +1,339 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Return Order Line Item History ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Return Order Line Item ID",
+      "name": "ReturnOrderLineItemId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "ReturnOrderLineItem"
+      ],
+      "relationshipName": "ReturnOrderLineItem",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Changed Field",
+      "name": "Field",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Asset",
+          "validFor": null,
+          "value": "Asset"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Created.",
+          "validFor": null,
+          "value": "created"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Destination Location",
+          "validFor": null,
+          "value": "DestinationLocation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Feed event",
+          "validFor": null,
+          "value": "feedEvent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Individual Merged",
+          "validFor": null,
+          "value": "individualMerged"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Order Product",
+          "validFor": null,
+          "value": "OrderItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Owner (Accepted)",
+          "validFor": null,
+          "value": "ownerAccepted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Owner (Assignment)",
+          "validFor": null,
+          "value": "ownerAssignment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Processing Plan",
+          "validFor": null,
+          "value": "ProcessingPlan"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Product",
+          "validFor": null,
+          "value": "Product2"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Product Item",
+          "validFor": null,
+          "value": "ProductItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Product Request Line Item",
+          "validFor": null,
+          "value": "ProductRequestLineItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Product Service Campaign",
+          "validFor": null,
+          "value": "ProductServiceCampaign"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Product Service Campaign Item",
+          "validFor": null,
+          "value": "ProductServiceCampaignItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quantity Expected",
+          "validFor": null,
+          "value": "QuantityExpected"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quantity Received",
+          "validFor": null,
+          "value": "QuantityReceived"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quantity Rejected",
+          "validFor": null,
+          "value": "QuantityRejected"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quantity Returned",
+          "validFor": null,
+          "value": "QuantityReturned"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Quantity Unit Of Measure",
+          "validFor": null,
+          "value": "QuantityUnitOfMeasure"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Reason for Rejection",
+          "validFor": null,
+          "value": "ReasonForRejection"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Reason For Return",
+          "validFor": null,
+          "value": "ReasonForReturn"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record locked.",
+          "validFor": null,
+          "value": "locked"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record unlocked.",
+          "validFor": null,
+          "value": "unlocked"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Repayment Method",
+          "validFor": null,
+          "value": "RepaymentMethod"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Return Order",
+          "validFor": null,
+          "value": "ReturnOrder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Source Location",
+          "validFor": null,
+          "value": "SourceLocation"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Old Value",
+      "name": "OldValue",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "anyType"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "New Value",
+      "name": "NewValue",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "anyType"
+    }
+  ],
+  "label": "Return Order Line Item History",
+  "childRelationships": [],
+  "custom": false,
+  "name": "ReturnOrderLineItemHistory",
+  "queryable": true
+}

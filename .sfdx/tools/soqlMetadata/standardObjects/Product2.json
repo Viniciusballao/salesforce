@@ -447,6 +447,16 @@
     },
     {
       "cascadeDelete": false,
+      "childSObject": "ContractLineItem",
+      "deprecatedAndHidden": false,
+      "field": "Product2Id",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ContractLineItems",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
       "childSObject": "EmailMessage",
       "deprecatedAndHidden": false,
       "field": "RelatedToId",
@@ -636,6 +646,16 @@
       "restrictedDelete": false
     },
     {
+      "cascadeDelete": false,
+      "childSObject": "ProductConsumed",
+      "deprecatedAndHidden": false,
+      "field": "Product2Id",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProductsConsumed",
+      "restrictedDelete": false
+    },
+    {
       "cascadeDelete": true,
       "childSObject": "ProductConsumptionSchedule",
       "deprecatedAndHidden": false,
@@ -643,6 +663,56 @@
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": "ProductConsumptionSchedules",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ProductEntitlementTemplate",
+      "deprecatedAndHidden": false,
+      "field": "Product2Id",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ProductItem",
+      "deprecatedAndHidden": false,
+      "field": "Product2Id",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProductItems",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ProductRequestLineItem",
+      "deprecatedAndHidden": false,
+      "field": "Product2Id",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProductRequestLineItems",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ProductRequired",
+      "deprecatedAndHidden": false,
+      "field": "Product2Id",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProductsRequired",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ProductTransfer",
+      "deprecatedAndHidden": false,
+      "field": "Product2Id",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProductTransfers",
       "restrictedDelete": false
     },
     {
@@ -667,6 +737,16 @@
     },
     {
       "cascadeDelete": true,
+      "childSObject": "ReturnOrderLineItem",
+      "deprecatedAndHidden": false,
+      "field": "Product2Id",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ReturnOrderLineItems",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
       "childSObject": "Task",
       "deprecatedAndHidden": false,
       "field": "WhatId",
@@ -683,6 +763,16 @@
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": null,
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "WorkOrderLineItem",
+      "deprecatedAndHidden": false,
+      "field": "Product2Id",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "WorkOrderLineItems",
       "restrictedDelete": false
     }
   ],

@@ -1,0 +1,61 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 2,
+    "passing": 2,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Sun May 28 2023 3:25:33 PM",
+    "testExecutionTimeInMs": 4554,
+    "testTotalTimeInMs": 4554,
+    "commandTimeInMs": 480,
+    "hostname": "https://connect-dream-5700-dev-ed.scratch.my.salesforce.com",
+    "orgId": "00DDS000000uirE2AQ",
+    "username": "test-l0z7qla01g3i@example.com",
+    "testRunId": "707DS00002jweTM",
+    "userId": "005DS00000uwOR9YAM"
+  },
+  "tests": [
+    {
+      "id": "07MDS00000ZEh4x2AD",
+      "queueItemId": "709DS000003eRa3YAE",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707DS00002jweTMYAY",
+      "methodName": "testErrorInsert",
+      "outcome": "Pass",
+      "apexLogId": "07LDS00000Lc8Og2AJ",
+      "apexClass": {
+        "id": "01pDS00000kAWUCYA4",
+        "name": "AccountTriggerHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "AccountTriggerHandlerTest"
+      },
+      "runTime": 151,
+      "testTimestamp": "2023-05-28T18:25:33.000+0000",
+      "fullName": "AccountTriggerHandlerTest.testErrorInsert"
+    },
+    {
+      "id": "07MDS00000ZEh4y2AD",
+      "queueItemId": "709DS000003eRa3YAE",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "707DS00002jweTMYAY",
+      "methodName": "testParceiro",
+      "outcome": "Pass",
+      "apexLogId": "07LDS00000Lc8Og2AJ",
+      "apexClass": {
+        "id": "01pDS00000kAWUCYA4",
+        "name": "AccountTriggerHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "AccountTriggerHandlerTest"
+      },
+      "runTime": 4403,
+      "testTimestamp": "2023-05-28T18:25:34.000+0000",
+      "fullName": "AccountTriggerHandlerTest.testParceiro"
+    }
+  ]
+}

@@ -77,6 +77,7 @@ global class Order {
     global List<Attachment> Attachments;
     global List<CombinedAttachment> CombinedAttachments;
     global List<ContentDocumentLink> ContentDocumentLinks;
+    global List<DigitalSignature> DigitalSignatures;
     global List<EmailMessage> Emails;
     global List<EntitySubscription> FeedSubscriptionsForEntity;
     global List<Event> Events;
@@ -92,8 +93,10 @@ global class Order {
     global List<ProcessInstanceHistory> ProcessSteps;
     global List<RecordAction> RecordActions;
     global List<RecordActionHistory> RecordActionHistories;
+    global List<ReturnOrder> ReturnOrders;
     global List<Task> Tasks;
     global List<TopicAssignment> TopicAssignments;
+    global List<WorkOrderLineItem> WorkOrderLineItems;
     global List<ContentVersion> FirstPublishLocation;
     global List<EventChangeEvent> What;
     global List<EventRelationChangeEvent> Relation;

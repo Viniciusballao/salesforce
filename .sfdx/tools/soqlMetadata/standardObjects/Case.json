@@ -866,6 +866,16 @@
     },
     {
       "cascadeDelete": true,
+      "childSObject": "CaseMilestone",
+      "deprecatedAndHidden": false,
+      "field": "CaseId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "CaseMilestones",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
       "childSObject": "CaseShare",
       "deprecatedAndHidden": false,
       "field": "CaseId",
@@ -1085,6 +1095,26 @@
       "restrictedDelete": false
     },
     {
+      "cascadeDelete": false,
+      "childSObject": "ProductRequest",
+      "deprecatedAndHidden": false,
+      "field": "CaseId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProductRequests",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ProductRequestLineItem",
+      "deprecatedAndHidden": false,
+      "field": "CaseId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ProductRequestLineItems",
+      "restrictedDelete": false
+    },
+    {
       "cascadeDelete": true,
       "childSObject": "RecordAction",
       "deprecatedAndHidden": false,
@@ -1102,6 +1132,26 @@
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": "RecordActionHistories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "ReturnOrder",
+      "deprecatedAndHidden": false,
+      "field": "CaseId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ReturnOrders",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ServiceAppointment",
+      "deprecatedAndHidden": false,
+      "field": "ParentRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ServiceAppointments",
       "restrictedDelete": false
     },
     {
@@ -1132,6 +1182,16 @@
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": "TopicAssignments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "WorkOrder",
+      "deprecatedAndHidden": false,
+      "field": "CaseId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "WorkOrders",
       "restrictedDelete": false
     }
   ],

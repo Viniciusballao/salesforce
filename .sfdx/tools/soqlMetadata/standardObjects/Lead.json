@@ -1815,6 +1815,16 @@
     },
     {
       "cascadeDelete": true,
+      "childSObject": "ServiceAppointment",
+      "deprecatedAndHidden": false,
+      "field": "ParentRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ServiceAppointments",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
       "childSObject": "Task",
       "deprecatedAndHidden": false,
       "field": "WhoId",

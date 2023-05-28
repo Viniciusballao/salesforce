@@ -78,6 +78,7 @@ global class Opportunity {
     global List<ProcessInstanceHistory> ProcessSteps;
     global List<RecordAction> RecordActions;
     global List<RecordActionHistory> RecordActionHistories;
+    global List<ServiceAppointment> ServiceAppointments;
     global List<Task> Tasks;
     global List<TopicAssignment> TopicAssignments;
     global List<ContentDistribution> RelatedRecord;

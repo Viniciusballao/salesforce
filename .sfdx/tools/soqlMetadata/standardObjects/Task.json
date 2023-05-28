@@ -53,17 +53,41 @@
         "Account",
         "Asset",
         "AssetRelationship",
+        "AssignedResource",
         "Campaign",
         "Case",
         "ContactRequest",
         "Contract",
-        "Fund__c",
+        "ContractLineItem",
+        "Entitlement",
         "Image",
         "ListEmail",
+        "Location",
+        "MaintenanceAsset",
+        "MaintenancePlan",
         "Opportunity",
         "Order",
         "Product2",
-        "Solution"
+        "ProductConsumed",
+        "ProductItem",
+        "ProductRequest",
+        "ProductRequestLineItem",
+        "ProductTransfer",
+        "ResourceAbsence",
+        "ReturnOrder",
+        "ReturnOrderLineItem",
+        "ServiceAppointment",
+        "ServiceContract",
+        "ServiceCrew",
+        "ServiceCrewMember",
+        "ServiceResource",
+        "Shift",
+        "Shipment",
+        "Solution",
+        "TimeSheet",
+        "TimeSheetEntry",
+        "WorkOrder",
+        "WorkOrderLineItem"
       ],
       "relationshipName": "What",
       "sortable": true,
@@ -708,7 +732,7 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+11:00) Norfolk Island Time (Pacific/Norfolk)",
+          "label": "(GMT+11:00) Norfolk Island Standard Time (Pacific/Norfolk)",
           "validFor": null,
           "value": "Pacific/Norfolk"
         },
@@ -897,13 +921,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT+04:30) Iran Daylight Time (Asia/Tehran)",
-          "validFor": null,
-          "value": "Asia/Tehran"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "(GMT+04:00) Azerbaijan Standard Time (Asia/Baku)",
           "validFor": null,
           "value": "Asia/Baku"
@@ -928,6 +945,13 @@
           "label": "(GMT+04:00) Armenia Standard Time (Asia/Yerevan)",
           "validFor": null,
           "value": "Asia/Yerevan"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT+03:30) Iran Standard Time (Asia/Tehran)",
+          "validFor": null,
+          "value": "Asia/Tehran"
         },
         {
           "active": true,
@@ -1079,6 +1103,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "(GMT+01:00) Western European Summer Time (Africa/Casablanca)",
+          "validFor": null,
+          "value": "Africa/Casablanca"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "(GMT+01:00) Irish Standard Time (Europe/Dublin)",
           "validFor": null,
           "value": "Europe/Dublin"
@@ -1096,13 +1127,6 @@
           "label": "(GMT+01:00) British Summer Time (Europe/London)",
           "validFor": null,
           "value": "Europe/London"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": "(GMT+00:00) Western European Standard Time (Africa/Casablanca)",
-          "validFor": null,
-          "value": "Africa/Casablanca"
         },
         {
           "active": true,
@@ -1233,13 +1257,6 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-05:00) Central Daylight Time (America/Mexico_City)",
-          "validFor": null,
-          "value": "America/Mexico_City"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
           "label": "(GMT-05:00) Eastern Standard Time (America/Panama)",
           "validFor": null,
           "value": "America/Panama"
@@ -1261,9 +1278,9 @@
         {
           "active": true,
           "defaultValue": false,
-          "label": "(GMT-06:00) Mexican Pacific Daylight Time (America/Mazatlan)",
+          "label": "(GMT-06:00) Central Standard Time (America/Mexico_City)",
           "validFor": null,
-          "value": "America/Mazatlan"
+          "value": "America/Mexico_City"
         },
         {
           "active": true,
@@ -1271,6 +1288,13 @@
           "label": "(GMT-07:00) Pacific Daylight Time (America/Los_Angeles)",
           "validFor": null,
           "value": "America/Los_Angeles"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "(GMT-07:00) Mexican Pacific Standard Time (America/Mazatlan)",
+          "validFor": null,
+          "value": "America/Mazatlan"
         },
         {
           "active": true,
@@ -1706,6 +1730,13 @@
           "label": "Call",
           "validFor": null,
           "value": "Call"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "LinkedIn",
+          "validFor": null,
+          "value": "LinkedIn"
         }
       ],
       "referenceTo": [],
@@ -1721,7 +1752,7 @@
       "filterable": true,
       "groupable": false,
       "inlineHelpText": null,
-      "label": "Completed Date",
+      "label": "Completed Date/Time",
       "name": "CompletedDateTime",
       "nillable": true,
       "picklistValues": [],

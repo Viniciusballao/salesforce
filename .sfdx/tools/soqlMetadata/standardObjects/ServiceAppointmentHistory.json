@@ -1,0 +1,479 @@
+{
+  "fields": [
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Service Appointment History ID",
+      "name": "Id",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "id"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": false,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Deleted",
+      "name": "IsDeleted",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "boolean"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Service Appointment ID",
+      "name": "ServiceAppointmentId",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "ServiceAppointment"
+      ],
+      "relationshipName": "ServiceAppointment",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Created By ID",
+      "name": "CreatedById",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [
+        "User"
+      ],
+      "relationshipName": "CreatedBy",
+      "sortable": true,
+      "type": "reference"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Created Date",
+      "name": "CreatedDate",
+      "nillable": false,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "datetime"
+    },
+    {
+      "aggregatable": true,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": true,
+      "groupable": true,
+      "inlineHelpText": null,
+      "label": "Changed Field",
+      "name": "Field",
+      "nillable": false,
+      "picklistValues": [
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Account",
+          "validFor": null,
+          "value": "Account"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Actual Duration (Minutes)",
+          "validFor": null,
+          "value": "ActualDuration"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Actual End",
+          "validFor": null,
+          "value": "ActualEndTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Actual Start",
+          "validFor": null,
+          "value": "ActualStartTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Address",
+          "validFor": null,
+          "value": "Address"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Appointment Booking URL",
+          "validFor": null,
+          "value": "ApptBookingInfoUrl"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Arrival Window End",
+          "validFor": null,
+          "value": "ArrivalWindowEndTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Arrival Window Start",
+          "validFor": null,
+          "value": "ArrivalWindowStartTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bundle",
+          "validFor": null,
+          "value": "IsBundle"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bundle Member",
+          "validFor": null,
+          "value": "IsBundleMember"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Bundle Policy",
+          "validFor": null,
+          "value": "BundlePolicy"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Capacity Usage Autonumber",
+          "validFor": null,
+          "value": "CapacityUsageAutonumber"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "City",
+          "validFor": null,
+          "value": "City"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Contact",
+          "validFor": null,
+          "value": "Contact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Country",
+          "validFor": null,
+          "value": "Country"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Created.",
+          "validFor": null,
+          "value": "created"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Description",
+          "validFor": null,
+          "value": "Description"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Due Date",
+          "validFor": null,
+          "value": "DueDate"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Duration",
+          "validFor": null,
+          "value": "Duration"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Duration in Minutes",
+          "validFor": null,
+          "value": "DurationInMinutes"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Duration Type",
+          "validFor": null,
+          "value": "DurationType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Earliest Start Permitted",
+          "validFor": null,
+          "value": "EarliestStartTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Feed event",
+          "validFor": null,
+          "value": "feedEvent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Geocode Accuracy",
+          "validFor": null,
+          "value": "GeocodeAccuracy"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Individual Merged",
+          "validFor": null,
+          "value": "individualMerged"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Latitude",
+          "validFor": null,
+          "value": "Latitude"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Longitude",
+          "validFor": null,
+          "value": "Longitude"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Manually Bundled",
+          "validFor": null,
+          "value": "IsManuallyBundled"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Offsite Appointment",
+          "validFor": null,
+          "value": "IsOffsiteAppointment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Owner",
+          "validFor": null,
+          "value": "Owner"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Owner (Accepted)",
+          "validFor": null,
+          "value": "ownerAccepted"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Owner (Assignment)",
+          "validFor": null,
+          "value": "ownerAssignment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Parent Record",
+          "validFor": null,
+          "value": "ParentRecord"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record locked.",
+          "validFor": null,
+          "value": "locked"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Record unlocked.",
+          "validFor": null,
+          "value": "unlocked"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Related Bundle",
+          "validFor": null,
+          "value": "RelatedBundle"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Scheduled End",
+          "validFor": null,
+          "value": "SchedEndTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Scheduled Start",
+          "validFor": null,
+          "value": "SchedStartTime"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Service Note",
+          "validFor": null,
+          "value": "ServiceNote"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Service Territory",
+          "validFor": null,
+          "value": "ServiceTerritory"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "State/Province",
+          "validFor": null,
+          "value": "State"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Status",
+          "validFor": null,
+          "value": "Status"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Status Category",
+          "validFor": null,
+          "value": "StatusCategory"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Street",
+          "validFor": null,
+          "value": "Street"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Subject",
+          "validFor": null,
+          "value": "Subject"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Work Type",
+          "validFor": null,
+          "value": "WorkType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": "Zip/Postal Code",
+          "validFor": null,
+          "value": "PostalCode"
+        }
+      ],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "picklist"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "Old Value",
+      "name": "OldValue",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "anyType"
+    },
+    {
+      "aggregatable": false,
+      "custom": false,
+      "defaultValue": null,
+      "extraTypeInfo": null,
+      "filterable": false,
+      "groupable": false,
+      "inlineHelpText": null,
+      "label": "New Value",
+      "name": "NewValue",
+      "nillable": true,
+      "picklistValues": [],
+      "referenceTo": [],
+      "relationshipName": null,
+      "sortable": true,
+      "type": "anyType"
+    }
+  ],
+  "label": "Service Appointment History",
+  "childRelationships": [],
+  "custom": false,
+  "name": "ServiceAppointmentHistory",
+  "queryable": true
+}

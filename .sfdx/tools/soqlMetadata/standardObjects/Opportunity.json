@@ -463,6 +463,13 @@
         {
           "active": true,
           "defaultValue": false,
+          "label": "Most Likely",
+          "validFor": null,
+          "value": "MostLikely"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
           "label": "Commit",
           "validFor": null,
           "value": "Forecast"
@@ -1232,6 +1239,16 @@
       "junctionIdListNames": [],
       "junctionReferenceTo": [],
       "relationshipName": "RecordActionHistories",
+      "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": true,
+      "childSObject": "ServiceAppointment",
+      "deprecatedAndHidden": false,
+      "field": "ParentRecordId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": "ServiceAppointments",
       "restrictedDelete": false
     },
     {

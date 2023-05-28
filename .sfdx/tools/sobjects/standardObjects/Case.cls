@@ -58,6 +58,7 @@ global class Case {
     global List<CaseContactRole> CaseContactRoles;
     global List<CaseFeed> Feeds;
     global List<CaseHistory> Histories;
+    global List<CaseMilestone> CaseMilestones;
     global List<CaseShare> Shares;
     global List<CaseSolution> CaseSolutions;
     global List<CaseTeamMember> TeamMembers;
@@ -73,10 +74,15 @@ global class Case {
     global List<OpenActivity> OpenActivities;
     global List<ProcessInstance> ProcessInstances;
     global List<ProcessInstanceHistory> ProcessSteps;
+    global List<ProductRequest> ProductRequests;
+    global List<ProductRequestLineItem> ProductRequestLineItems;
     global List<RecordAction> RecordActions;
     global List<RecordActionHistory> RecordActionHistories;
+    global List<ReturnOrder> ReturnOrders;
+    global List<ServiceAppointment> ServiceAppointments;
     global List<Task> Tasks;
     global List<TopicAssignment> TopicAssignments;
+    global List<WorkOrder> WorkOrders;
     global List<CaseChangeEvent> Parent;
     global List<ContentDistribution> RelatedRecord;
     global List<ContentVersion> FirstPublishLocation;

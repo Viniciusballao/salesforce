@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 1,
+    "passing": 0,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "0%",
+    "failRate": "100%",
+    "skipRate": "0%",
+    "testStartTime": "Sun May 28 2023 3:08:20 PM",
+    "testExecutionTimeInMs": 493,
+    "testTotalTimeInMs": 493,
+    "commandTimeInMs": 465,
+    "hostname": "https://connect-dream-5700-dev-ed.scratch.my.salesforce.com",
+    "orgId": "00DDS000000uirE2AQ",
+    "username": "test-l0z7qla01g3i@example.com",
+    "testRunId": "707DS00002jweJh",
+    "userId": "005DS00000uwOR9YAM"
+  },
+  "tests": [
+    {
+      "id": "07MDS00000ZEh4T2AT",
+      "queueItemId": "709DS000003eRZZYA2",
+      "stackTrace": "Class.AccountTriggerHandlerTest.testErrorInsert: line 9, column 1",
+      "message": "System.DmlException: Insert failed. First exception on row 0; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, Número do cliente é inválido: []",
+      "asyncApexJobId": "707DS00002jweJhYAI",
+      "methodName": "testErrorInsert",
+      "outcome": "Fail",
+      "apexLogId": "07LDS00000Lc8Nd2AJ",
+      "apexClass": {
+        "id": "01pDS00000kAWUCYA4",
+        "name": "AccountTriggerHandlerTest",
+        "namespacePrefix": null,
+        "fullName": "AccountTriggerHandlerTest"
+      },
+      "runTime": 493,
+      "testTimestamp": "2023-05-28T18:08:20.000+0000",
+      "fullName": "AccountTriggerHandlerTest.testErrorInsert",
+      "diagnostic": {
+        "exceptionMessage": "System.DmlException: Insert failed. First exception on row 0; first error: FIELD_CUSTOM_VALIDATION_EXCEPTION, Número do cliente é inválido: []",
+        "exceptionStackTrace": "Class.AccountTriggerHandlerTest.testErrorInsert: line 9, column 1",
+        "className": "AccountTriggerHandlerTest",
+        "compileProblem": "",
+        "lineNumber": 9,
+        "columnNumber": 1
+      }
+    }
+  ]
+}

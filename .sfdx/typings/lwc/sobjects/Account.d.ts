@@ -22,6 +22,14 @@ declare module "@salesforce/schema/Account.Type" {
   const Type:string;
   export default Type;
 }
+declare module "@salesforce/schema/Account.RecordType" {
+  const RecordType:any;
+  export default RecordType;
+}
+declare module "@salesforce/schema/Account.RecordTypeId" {
+  const RecordTypeId:any;
+  export default RecordTypeId;
+}
 declare module "@salesforce/schema/Account.Parent" {
   const Parent:any;
   export default Parent;
@@ -253,4 +261,12 @@ declare module "@salesforce/schema/Account.DandbCompany" {
 declare module "@salesforce/schema/Account.DandbCompanyId" {
   const DandbCompanyId:any;
   export default DandbCompanyId;
+}
+declare module "@salesforce/schema/Account.OperatingHours" {
+  const OperatingHours:any;
+  export default OperatingHours;
+}
+declare module "@salesforce/schema/Account.OperatingHoursId" {
+  const OperatingHoursId:any;
+  export default OperatingHoursId;
 }
