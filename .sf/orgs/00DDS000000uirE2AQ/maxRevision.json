@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 316,
+  "serverMaxRevisionCounter": 325,
   "sourceMembers": {
     "StandardValueSet__AccountType": {
       "serverRevisionCounter": 1,
@@ -94,6 +94,36 @@
     "ApexClass__AccountTriggerHandlerTest": {
       "serverRevisionCounter": 316,
       "lastRetrievedFromServer": 316,
+      "memberType": "ApexClass",
+      "isNameObsolete": false
+    },
+    "CustomField__Account.Inativa__c": {
+      "serverRevisionCounter": 317,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "Layout__Account-Account (Marketing) Layout": {
+      "serverRevisionCounter": 318,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Account-Account (Sales) Layout": {
+      "serverRevisionCounter": 319,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Account-Account (Support) Layout": {
+      "serverRevisionCounter": 320,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "ApexClass__InactivateAccountBatch": {
+      "serverRevisionCounter": 325,
+      "lastRetrievedFromServer": 325,
       "memberType": "ApexClass",
       "isNameObsolete": false
     }
