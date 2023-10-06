@@ -1,0 +1,16 @@
+<template>
+    <div class="slds-box slds-theme_shade">
+        <h3>
+            <lightning-icon icon-name="standard:record" size="small"></lightning-icon>
+            Criar Cooperativa
+        </h3>
+        <p class="slds-p-horizontal_small">
+            <lightning-input type="text" label="Nome" name={fieldNames.Name} onchange={handleChangeEvent}></lightning-input>
+            <lightning-input type="text" label="Telefone" name={fieldNames.Phone} onchange={handleChangeEvent}></lightning-input>
+            <lightning-input type="text" label="Endereço" name={fieldNames.Street} onchange={handleChangeEvent}></lightning-input>
+        </p>
+        <div class="slds-m-top_small slds-align_absolute-center ">
+            <lightning-button label="Criar" onclick={handleClick} variant="brand"></lightning-button>
+        </div>
+    </div>
+</template>

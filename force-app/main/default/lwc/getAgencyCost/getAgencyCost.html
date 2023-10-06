@@ -1,0 +1,28 @@
+<template>
+    <div class="slds-box slds-theme_shade">
+        <h3>
+            <lightning-icon icon-name="standard:record" size="small"></lightning-icon>
+            Buscar agências com custo maior que a média
+        </h3>
+        <div class="slds-p-horizontal_small">
+            <div>
+                <lightning-combobox
+                name="Account"
+                label="Cooperativa"
+                value={value}
+                options={options}
+                onchange={handleChangeCombobox}></lightning-combobox>
+            </div>
+        </div>
+        <div class="slds-m-top_small slds-align_absolute-center ">
+            <lightning-button label="Buscar" onclick={handleClick} variant="brand"></lightning-button>
+        </div>
+        <div>
+            <lightning-datatable
+            key-field="id"
+            data={agencyList}
+            columns={columns}>
+            </lightning-datatable>
+        </div>
+    </div>
+</template>

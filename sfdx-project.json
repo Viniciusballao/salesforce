@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    }
+  ],
+  "name": "Nova org dev",
+  "namespace": "",
+  "sfdcLoginUrl": "https://wise-unicorn-m2sdb7-dev-ed.trailblaze.lightning.force.com/",
+  "sourceApiVersion": "58.0"
+}
